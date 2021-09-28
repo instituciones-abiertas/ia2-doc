@@ -45,14 +45,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       colorMode: {
-        defaultMode: 'dark',
         disableSwitch: true,
-        respectPrefersColorScheme: false,
       },
       navbar: {
         title: 'Instituciones Abiertas',
         logo: {
-          alt: 'IA² Documentación',
+          alt: 'Manual IA²',
           src: 'img/logo.png',
         },
         items: [

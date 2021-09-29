@@ -1,20 +1,20 @@
 # Proyecto Documentación IA²
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+Esta documentación esta hecha cong [Docusaurus 2](https://docusaurus.io/).
 
-### Installation
+### Instalación
 
 ```
 $ yarn
 ```
 
-### Local Development
+### Despliegue local
 
 ```
 $ yarn start
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+Inicia el servidor de ¨desarrollo y abre una ventana del navegador. La mayoria de cambios de reflejan en vivo sin reinicio del servidor.
 
 ### Build
 
@@ -22,7 +22,7 @@ This command starts a local development server and opens up a browser window. Mo
 $ yarn build
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+Genera contenido estático en la carpeta `build` y puede ser servido por cualquier servicio de hosting.
 
 ### Deployment
 
@@ -30,18 +30,20 @@ This command generates static content into the `build` directory and can be serv
 $ GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Si estas usando GitHub pages como hosting, este comando en una forma de construir y hacer push a `gh-pages`.
+
+El contenido queda en [https://instituciones-abiertas.github.io/ia2-doc/](https://instituciones-abiertas.github.io/ia2-doc/)
 
 ### PDF
 
-One terminal
+En una terminal
 ```
 $ yarn start
 ```
 
-Second terminal
+En una segunda terminal
 ```
 $ yarn create-pdf
 ```
 
-This will create a file `manual.pdf` in root dir
+Esto creara un archivo `manual.pdf` en la carpeta raíz.

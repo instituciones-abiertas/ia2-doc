@@ -6,13 +6,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 (module.exports = {
   title: 'IA² - Instituciones Abiertas',
   tagline: 'Proyecto de documentación',
-  url: 'https://ia2.coop',
-  baseUrl: '/',
+  url: 'https://instituciones-abiertas.github.io',
+  baseUrl: '/ia2-doc/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'Instituciones Abiertas', // Usually your GitHub org/user name.
+  organizationName: 'instituciones-abiertas', // Usually your GitHub org/user name.
   projectName: 'ia2-doc', // Usually your repo name.
+  trailingSlash: true,
   presets: [
     [
       '@docusaurus/preset-classic',

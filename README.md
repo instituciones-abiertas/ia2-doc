@@ -36,12 +36,12 @@ El contenido queda en [https://instituciones-abiertas.github.io/ia2-doc/](https:
 
 ### PDF
 
-En una terminal
+En una terminal (es necesario tener el servidor funcionando)
 ```
 $ yarn start
 ```
 
-En una segunda terminal
+En una segunda terminal (utiliza [mr-pdf](https://github.com/KohheePeace/mr-pdf) y lo hace scrapeando el servidor con puppeteer)
 ```
 $ yarn create-pdf
 ```

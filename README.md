@@ -34,7 +34,7 @@ Si estas usando GitHub pages como hosting, este comando en una forma de construi
 
 El contenido queda en [https://instituciones-abiertas.github.io/ia2-doc/](https://instituciones-abiertas.github.io/ia2-doc/)
 
-### PDF
+### Exportación a PDF
 
 En una terminal (es necesario tener el servidor funcionando)
 ```
@@ -47,3 +47,15 @@ $ yarn create-pdf
 ```
 
 Esto creara un archivo `manual.pdf` en la carpeta raíz.
+
+#### Posible Error
+
+> Si te da este error la exportación significa que no esta funcionando el servidor. (Corre *yarn start* previamente.)
+
+```
+$ mr-pdf --initialDocURLs='http://localhost:3000/docs/intro' --contentSelector='.markdown' --paginationSelector='.pagination-nav__item--next > a' --excludeSelectors='.margin-vert--xl a' --coverImage='http://localhost:3000/img/logo.png' --coverTitle='Documentación IA²' --outputPDFFilename='manual.pdf' --cssStyle='div.pdf-cover{background:#1f3366}'
+
+Retrieving html from http://localhost:3000/docs/intro
+
+Error: net::ERR_CONNECTION_REFUSED at http://localhost:3000/docs/intro
+```

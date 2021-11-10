@@ -50,7 +50,7 @@ Esto creara un archivo `manual.pdf` en la carpeta raíz.
 
 #### Posible Error
 
-> Si te da este error la exportación significa que no esta funcionando el servidor. (Corre *yarn start* previamente.
+> Si te da este error la exportación significa que no esta funcionando el servidor. (Corre *yarn start* previamente.)
 
 ```
 $ mr-pdf --initialDocURLs='http://localhost:3000/docs/intro' --contentSelector='.markdown' --paginationSelector='.pagination-nav__item--next > a' --excludeSelectors='.margin-vert--xl a' --coverImage='http://localhost:3000/img/logo.png' --coverTitle='Documentación IA²' --outputPDFFilename='manual.pdf' --cssStyle='div.pdf-cover{background:#1f3366}'
